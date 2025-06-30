@@ -213,9 +213,9 @@ export const HomePage = (): JSX.Element => {
               <a href="#products" className="text-gray-700 hover:text-green-600 transition-colors font-medium text-sm">PRODUCTS</a>
               <a href="#services" className="text-gray-700 hover:text-green-600 transition-colors font-medium text-sm">SERVICES</a>
               <a href="#testimonials" className="text-gray-700 hover:text-green-600 transition-colors font-medium text-sm">TESTIMONIALS</a>
-              <a href="#contact" className="text-gray-700 hover:text-green-600 transition-colors font-medium text-sm">CONTACT</a>
+              
               <Button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 text-sm font-medium">
-                GET QUOTE
+                <a href="#contact" className="text-white hover:text-green-600 transition-colors font-medium text-sm">GET QUOTE</a>
               </Button>
             </div>
 
@@ -241,10 +241,10 @@ export const HomePage = (): JSX.Element => {
               <a href="#products" className="block px-3 py-2 text-gray-700 hover:text-green-600 font-medium text-sm">PRODUCTS</a>
               <a href="#services" className="block px-3 py-2 text-gray-700 hover:text-green-600 font-medium text-sm">SERVICES</a>
               <a href="#testimonials" className="block px-3 py-2 text-gray-700 hover:text-green-600 font-medium text-sm">TESTIMONIALS</a>
-              <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-green-600 font-medium text-sm">CONTACT</a>
+              
               <div className="px-3 py-2">
                 <Button className="w-full bg-green-600 hover:bg-green-700 text-white text-sm font-medium">
-                  GET QUOTE
+                  <a href="#contact" className="block px-3 py-2 text-gray-700 hover:text-green-600 font-medium text-sm">CONTACT</a>
                 </Button>
               </div>
             </div>
@@ -457,11 +457,11 @@ export const HomePage = (): JSX.Element => {
             ))}
           </div>
 
-          <div className="text-center mt-12">
+          {/* <div className="text-center mt-12">
             <Button size="lg" variant="outline" className="border-2 border-green-600 text-green-600 hover:bg-green-50 px-8 py-3 text-lg font-medium">
               VIEW ALL PRODUCTS
             </Button>
-          </div>
+          </div> */}
         </div>
       </section>
 
