@@ -202,7 +202,7 @@ export const HomePage = (): JSX.Element => {
             {/* Logo - Figma Style */}
             <div className="flex items-center">
               <div className="text-2xl font-bold tracking-tight">
-                <span className="text-green-600"><img src="./public/logo2.jpg" alt="" className="h-16 md:h-24"/></span>
+                <span className="text-green-600"><img src="https://ik.imagekit.io/yuq4cit8f/logo2.jpg?updatedAt=1751465254481" alt="" className="h-16 md:h-24"/></span>
               </div>
             </div>
 
@@ -732,7 +732,7 @@ export const HomePage = (): JSX.Element => {
             {/* Company Info */}
             <div className="space-y-6">
               <div className="text-3xl font-bold">
-                <span className="text-green-500"><img src="./public/logo2.jpg" alt="" className="h-16 md:h-24"/></span>
+                <span className="text-green-500"><img src="https://ik.imagekit.io/yuq4cit8f/logo2.jpg?updatedAt=1751465254481" alt="" className="h-16 md:h-24"/></span>
               </div>
               <p className="text-gray-300 leading-relaxed">
                 Making smart living accessible and affordable for everyone in India. 
